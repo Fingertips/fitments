@@ -29,6 +29,7 @@ module Fitments
       end.compact
     end
 
+    # :nodoc:
     module ClassMethods
       attr_reader :attribute_names
 

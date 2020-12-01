@@ -1,0 +1,6 @@
+bridget: !ruby/object:Person
+  name: Bridget Kunde
+shawn: !ruby/object:Person
+  email: shawn@example.com
+started: !ruby/object:Person
+  started_at: <%= Time.now - (3600 * 24 * 2) %>
